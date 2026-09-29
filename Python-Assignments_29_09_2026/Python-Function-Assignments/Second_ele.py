@@ -1,0 +1,10 @@
+"""
+5.	Using a lambda function, sort a list of tuples based on the second element. Example: [(1,5), (2,3), (4,1)].
+
+
+"""
+numbers = [(1, 5), (2, 3), (4, 1)]
+
+result = sorted(numbers, key=lambda x: x[1])
+
+print(result)
